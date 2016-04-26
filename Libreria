@@ -1,0 +1,16 @@
+CREATE DATABASE libreria;
+
+use  libreria;
+
+create table libro(
+
+id INT AUTO_INCREMENT PRIMARY KEY,
+autor VARCHAR(20),
+editorial VARCHAR(30),
+isbn VARCHAR(30))
+
+ENGINE=INNODB;
+
+
+INSERT INTO libro (id, autor,editorial,isbn) 
+VALUES ("1","marquez","mac great hill","equix");
